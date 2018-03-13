@@ -7,5 +7,5 @@
     - debug:
         msg: "Running PLAYBOOK TEST"
     
-    - name: return motd to registered var
-      command: cat /etc/motd
+    - name: return hostname
+      command: hostnamectl
