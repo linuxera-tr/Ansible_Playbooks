@@ -9,3 +9,7 @@
     
     - name: return hostname
       command: hostnamectl
+      register: hname
+
+    - debug: 
+        var: hname
