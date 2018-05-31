@@ -13,3 +13,6 @@
 
     - debug: 
         var: hname
+        
+    - debug:
+        var: ip_addr 
