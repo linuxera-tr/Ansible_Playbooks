@@ -15,10 +15,10 @@
         var: hname
         
     - debug:
-        msg: {{ ip_addr }}
+        msg: "{{ ip_addr }}"
     
     - debug
-        msg: {{ var1 }}
+        msg: "{{ var1 }}"
         
     - name: Display all variables/facts known for a host
       debug:
