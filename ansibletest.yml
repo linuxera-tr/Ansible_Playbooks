@@ -2,6 +2,7 @@
 - hosts: all
 
   vars:
+    ip: '{{ ip_addr }}'
     
   tasks:
     - debug:
@@ -15,4 +16,4 @@
         var: hname
         
     - debug:
-        var: ip_addr 
+        var: ip 
