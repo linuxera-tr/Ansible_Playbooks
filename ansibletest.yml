@@ -17,7 +17,7 @@
     - debug:
         msg: "{{ ip_addr }}"
     
-    - debug
+    - debug:
         msg: "{{ var1 }}"
         
     - name: Display all variables/facts known for a host
