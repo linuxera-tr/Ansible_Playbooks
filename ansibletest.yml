@@ -16,11 +16,3 @@
         
     - debug:
         msg: "{{ ip_addr }}"
-    
-    - debug:
-        msg: "{{ var1 }}"
-        
-    - name: Display all variables/facts known for a host
-      debug:
-        var: hostvars[inventory_hostname]
-        verbosity: 4
